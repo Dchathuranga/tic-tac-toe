@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  height: 60px;
+  width: 60px;
+  margin: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.gameBoard {
+  margin-left: 50px;
+}
+
+.game-info {
+  margin-left: 50px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  margin-left: 50px;
+}
